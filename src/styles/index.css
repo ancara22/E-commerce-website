@@ -1,0 +1,455 @@
+/* Home page */
+body, h3, #about p, .line, h1, #products_box, #user_box, #message_order,
+.product_data div, #sort_div, .order_box, .form form input {
+    margin: 0 auto;
+}
+
+h3, h1, .product_data div, h2, #login_btn, #registration_btn, #message, #title {
+    width: max-content;
+}
+
+.order_info, #products_box, .product, .product_o, .product_o .product_data_o,
+.product_o .product_info_o, .form, .form form, .product_info_co, #checkout_s, #user_box {
+    display: flex;
+}
+
+#sort_div label, .product_code, .order_info, #login_btn, #registration_btn, .product_info_co {
+    color: gray;
+}
+
+.product_o, .product, .form, #message, .product_img_co, 
+.product_info_co, .product_name_co, #checkout_s, #close_btn {
+    position: relative;
+}
+
+.product, .order_box, .product_o, .form form input, #user_box input  {
+    border-radius: 5px;
+}
+.product_buy_btn, .product_price, .product_o .product_info_o {
+    position: absolute;
+}
+
+#advertise, #recomendations #products_box  {
+    overflow: hidden;
+}
+
+#about p, .product_name span, #empty_msg {
+    text-align: center;
+}
+
+.product, .product_o .product_data_o, .form, .form form, #user_box  {
+    flex-direction: column;
+}
+
+.product, .form, #login_btn, #registration_btn   {
+    background-color: white;
+}
+
+.product_name, .product_name span, .product_o .product_img_o,
+#title, #empty_msg, #user_box label {
+    display: block;
+}
+
+#checkout_s, .order_info, .product_o .product_info_o, .product_info_co  {
+    justify-content: space-between;
+}
+
+.product_buy_btn, #login_btn, #registration_btn, 
+#registration_form #registration_btn, #close_btn, 
+#login_form #login_btn, #checkout_btn_page button:hover, #buy_btn:hover {
+    cursor: pointer;
+}
+
+.product_buy_btn, #registration_form #registration_btn, 
+#login_form #login_btn, #checkout_btn_page button, #buy_btn  {
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+#advertise img, #about {
+    width: 100%;
+}
+
+h1 {
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+h2 {
+    font-weight: 500;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+h3 {
+    padding-top: 70px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#advertise, #about  {
+    height: 400px;
+}
+
+#about h3 {
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+#about p {
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+.line {
+    width: 20%;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+#recomendations {
+     height: fit-content;
+}
+
+#recomendations #products_box {
+    width: 90%;
+    height: 300px;
+}
+
+
+
+/* products page */
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+#products_box {
+    width: 80vw;
+    margin-top: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 200px;
+    height: 250px;
+    margin: 20px 10px;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.133);
+}
+
+.product_img {
+    width: 170px;
+    padding: 15px;
+}
+
+.product_name {
+    padding-top: 20px;
+    font-size: 16px;
+    width: 300px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+.product_name span {
+    width: 180px;
+}
+
+.product_code {
+    font-size: 0.8rem;
+}
+
+.product_buy_btn {
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px 0 5px 0;
+}
+
+.product_buy_btn:hover {
+    background-color: rgb(88, 88, 250);
+}
+
+.product_price {
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 10px 10px 10px 20px;
+    bottom: 0;
+    left: 0;
+}
+
+#sort_div {
+    width: 75vw;
+    padding-top: 50px;
+
+}
+
+#sort_div select {
+    border: 1px solid rgb(227, 227, 227);
+    margin-left: 5px;
+    padding: 2px;
+}
+
+
+/*  orders page */
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+.order_box {
+    box-shadow: 0px 0px 2px rgba(130, 130, 130, 0.468);
+    width: 80vw;
+    min-width: 600px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.order_info {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+}
+
+.product_o {
+    width: 420px;
+    height: 120px;
+    margin: 10px;
+    border: 1px solid rgba(134, 134, 134, 0.098);
+}
+
+.product_o .product_img_o {
+    width: 170px;
+    height: 100px;
+}
+
+.product_o .product_data_o {
+    padding: 10px;
+    padding-left: 30px;
+    width: 300px;
+    height: auto;
+}
+
+.product_o .product_name_o {
+    min-height: 30px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.product_o .product_code_o {
+    padding-top: 4px;
+    font-size: 0.8rem;
+    color: rgb(166, 166, 166);
+    font-weight: 400;
+}
+
+.product_o .product_info_o {
+    font-size: 0.8rem;
+    width: 150px;
+    bottom: 10px;
+}
+
+.product_price_o, .product_quantity_o {
+    padding-top: 5px;
+}
+
+.order_total {
+    text-align: right;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+
+/* Login page */
+/* ///////////////////////////////////////////////////////////////////////////////////////////*/
+/* Registration page */
+.form {
+    top: 8vh;
+    width: 400px;
+    height: max-content;
+}
+
+.form form {
+    padding: 20px;
+}
+
+.form form input {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 7px;
+    border: 1px solid rgb(208, 208, 208);
+}
+
+#registration_form #registration_btn, 
+#login_form #login_btn {
+    width: 200px;
+    transition: all 0.7s ease-in;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+#registration_form #registration_btn:hover, 
+#login_form #login_btn:hover {
+    background-color: rgb(85, 85, 249);
+}
+
+#login_btn, #registration_btn {
+    border: none;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+#login_btn:hover, 
+#registration_btn:hover {
+    color: orange;
+}
+
+#registration_form span,
+#login_form span {
+    margin-top: 40px;
+    font-size: 1.3rem;
+    color: rgb(171, 170, 170);
+}
+
+#message {
+    margin-top: 40px;
+    color: red;
+    top: -15px;
+}
+
+
+
+/* Checkout page */
+#title {
+    font-size: 1.4rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#product_list {
+    width: 800px;
+    min-width: 800px;
+}
+
+.product_img_co {
+    height: 100px;
+    left: 100px;
+    top: 20px;
+}
+
+.product_co {
+    border-top: 1px solid rgb(226, 225, 225);
+    width: 800px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.product_info_co {
+    width: 300px;
+    left: 50%;
+    top: -30px;
+}
+
+.product_name_co {
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    left: 50%;
+    top: -60px;
+}
+
+#checkout_s {
+    padding-bottom: 100px;
+    width: 350px;
+    padding-top: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    left: 230px;
+}
+
+#checkout_s #total_s {
+    padding-top: 10px;
+}
+
+#checkout_btn_page button {
+    padding: 15px 40px;
+}
+
+#checkout_btn_page button:hover {
+    color: white;
+    background-color: rgb(251, 189, 0)
+}
+
+#empty_msg {
+    color: rgb(187, 187, 187);
+}
+
+.stop-scrolling {
+    height: 100vw;
+    overflow: hidden
+}
+
+#close_btn {
+    background-color: rgba(217, 55, 55, 0.573);
+    border: none;
+    color: #FFF;
+    font-size: 21px;
+    height: 50px;
+    left: 224px;
+    width: 55px
+}
+
+#close_btn:hover {
+    background-color: red
+}
+
+#user_box {
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #d9d8d8;
+    align-items: center;
+    height: min-content;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    width: 500px;
+    z-index: 9999999;
+    
+}
+
+#user_box_background {
+    backdrop-filter: blur(5px);
+    background-color: rgba(253, 253, 253, 0.344);
+    display: none;
+    height: 100vh;
+    overflow: scroll;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 99999999999
+}
+
+#user_box input {
+    border: 1px solid #e4e3e3;
+    padding: 10px;
+    width: 300px
+}
+
+#user_box label {
+    color: #bdbcbc;
+    font-weight: 100;
+    margin-bottom: 5px;
+    margin-top: 30px
+}
+
+#buy_btn {
+    padding: 10px 40px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    transition: all 0.4s ease-in;
+}
+
+#buy_btn:hover {
+    background-color: rgb(68, 68, 255);
+}
+
+#message_order {
+    color: rgb(1, 158, 1);
+    padding: 50px;
+}
